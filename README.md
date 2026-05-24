@@ -23,13 +23,13 @@ Profiles are stored under `~/.local/share/claude_profiles/<name>/`.
 Requires Python 3.9+. Install with [pipx](https://pipx.pypa.io/) (recommended for CLI tools):
 
 ```bash
-pipx install .
+pipx install git+https://github.com/fang0654/claude_profile_switcher
 ```
 
 Or with pip:
 
 ```bash
-pip install .
+pip install git+https://github.com/fang0654/claude_profile_switcher
 ```
 
 This installs the `claude_profile` command.
